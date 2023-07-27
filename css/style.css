@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal do formulário */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para cada grupo de input e label */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Estilo para os campos de input */
+input[type="number"],
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Estilo para o botão "Converter" */
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para o campo de resultado */
+.resultado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Estilo para o valor do resultado */
+#resultadoValor {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Estilo para o footer */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
